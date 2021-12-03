@@ -1,6 +1,5 @@
 const fs = require("fs");
-var data = fs.readFileSync("d3p1.txt", "utf8");
-arr = data.split("\n");
+const arr = fs.readFileSync("d3p2.txt", "utf8").split("\n");
 
 const biLen = arr[0].length;
 
